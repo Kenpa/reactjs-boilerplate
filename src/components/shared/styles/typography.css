@@ -1,0 +1,40 @@
+.baseFont {
+  composes: grey700 from './colors.css';
+  font-family: Muli, sans-serif !important;
+}
+
+.display4 {
+  composes: baseFont;
+  font-size: 112px !important;
+  font-weight: 400 !important;
+}
+
+.display3 {
+  composes: baseFont;
+  font-size: 56px !important;
+  font-weight: 400 !important;
+}
+
+.display2 {
+  composes: baseFont;
+  font-size: 45px !important;
+  font-weight: 600 !important;
+}
+
+.display1 {
+  composes: baseFont;
+  font-size: 34px !important;
+  font-weight: 600 !important;
+}
+
+.headline {
+  composes: baseFont;
+  font-size: 24px !important;
+  font-weight: 600 !important;
+}
+
+.title {
+  composes: baseFont;
+  font-size: 20px !important;
+  font-weight: 600 !important;
+}
